@@ -1,0 +1,79 @@
+{
+  "source": "sample_data/requests_30d.csv",
+  "period_start": "2026-09-14T00:00:00+00:00",
+  "period_end": "2026-10-14T00:00:00+00:00",
+  "slo_target": 0.9990000000000001,
+  "availability": 0.999075,
+  "slo_met": true,
+  "requests": 43205846,
+  "failed_requests": 39978,
+  "error_budget_events": 43205.8,
+  "budget_consumed": 0.9253,
+  "budget_remaining": 0.0747,
+  "overall_burn_rate": 0.925,
+  "current_burn_rates": {
+    "1h": 0.31,
+    "6h": 0.323,
+    "1d": 0.32,
+    "3d": 0.329
+  },
+  "hours_until_exhausted": 168.0440433837001,
+  "alerts": [
+    {
+      "severity": "page",
+      "rule": "14.4x over 1h and 5m",
+      "fired": "2026-09-24T14:15:00+00:00",
+      "cleared": "2026-09-24T14:35:00+00:00",
+      "peak_burn": 168.89
+    },
+    {
+      "severity": "page",
+      "rule": "6x over 6h and 30m",
+      "fired": "2026-09-24T14:15:00+00:00",
+      "cleared": "2026-09-24T15:00:00+00:00",
+      "peak_burn": 31.09
+    },
+    {
+      "severity": "ticket",
+      "rule": "1x over 3d and 6h",
+      "fired": "2026-09-24T14:15:00+00:00",
+      "cleared": "2026-09-24T20:30:00+00:00",
+      "peak_burn": 3.72
+    },
+    {
+      "severity": "ticket",
+      "rule": "3x over 1d and 2h",
+      "fired": "2026-09-24T14:20:00+00:00",
+      "cleared": "2026-09-24T16:30:00+00:00",
+      "peak_burn": 10.53
+    },
+    {
+      "severity": "ticket",
+      "rule": "1x over 3d and 6h",
+      "fired": "2026-10-03T12:20:00+00:00",
+      "cleared": "2026-10-04T17:05:00+00:00",
+      "peak_burn": 2.55
+    },
+    {
+      "severity": "ticket",
+      "rule": "3x over 1d and 2h",
+      "fired": "2026-10-03T14:35:00+00:00",
+      "cleared": "2026-10-04T12:45:00+00:00",
+      "peak_burn": 5.04
+    },
+    {
+      "severity": "page",
+      "rule": "14.4x over 1h and 5m",
+      "fired": "2026-10-09T09:30:00+00:00",
+      "cleared": "2026-10-09T10:00:00+00:00",
+      "peak_burn": 28.95
+    },
+    {
+      "severity": "page",
+      "rule": "6x over 6h and 30m",
+      "fired": "2026-10-09T09:55:00+00:00",
+      "cleared": "2026-10-09T10:20:00+00:00",
+      "peak_burn": 6.64
+    }
+  ]
+}
